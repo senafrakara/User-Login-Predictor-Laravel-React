@@ -5,6 +5,7 @@ composer install --optimize-autoloader --no-dev
 
 # Generate application key if not already set
 php artisan key:generate --force
+php artisan migrate
 
 # Clear and cache configurations
 php artisan config:clear
