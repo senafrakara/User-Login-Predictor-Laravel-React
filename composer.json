@@ -61,8 +61,13 @@
         ],
         "post-install-cmd": [
             "php artisan clear-compiled",
-            "chmod -R 777 public/",
-            "npm ci && npm run build"
+            "chmod -R 755 public/"
+        ],
+        "compile": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php artisan key:generate --ansi",
+            "npm ci",
+            "npm run build"
         ]
     },
     "extra": {
