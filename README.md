@@ -1,4 +1,3 @@
-````md
 # User Login Prediction System
 
 This project is a web application that predicts users' future login times based on their historical login data. It uses **Laravel 12** for the backend and **React** as the frontend, powered by **Vite** through the official Laravel Vite React plugin.
