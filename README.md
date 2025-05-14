@@ -38,7 +38,7 @@ This project is a web application that predicts users' future login times based 
    ```bash
    git clone https://github.com/senafrakara/User-Login-Predictor-Laravel-React.git
    cd user-login-predictor
-````
+   ```
 
 2. **Install PHP dependencies**
 
