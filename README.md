@@ -2,6 +2,9 @@
 
 This project is a web application that predicts users' future login times based on their historical login data. It uses **Laravel 12** for the backend and **React** as the frontend, powered by **Vite** through the official Laravel Vite React plugin.
 
+## Project Url
+   [Heroku](https://login-predictor-30d4255b140d.herokuapp.com/)
+
 ## ✨ Features
 
 - Predicts future login times using two different algorithms: average-based and pattern-based.
